@@ -1,0 +1,62 @@
+/* card styles */
+.card {
+  border: 1px solid var(--color-ui-10);
+  border-radius: 18px;
+  overflow: hidden;
+}
+.top {
+  padding: 1rem 1rem 0 1rem;
+}
+.cardInner {
+}
+.postWrapper {
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding-bottom: 1.2rem;
+}
+.dot {
+  height: 0.6rem;
+  width: 0.6rem;
+  background: var(--color-ui-20);
+  border-radius: 1rem;
+  transition: all 0.2s cubic-bezier(0.62, 0.13, 0.15, 0.97);
+}
+.dot.active {
+  background: var(--color-ui-100);
+}
+
+/* post/inner card styles */
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  max-width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.pictures {
+  padding: 0.2rem 0;
+}
+.reactions {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.postPicture {
+  width: 100%;
+  position: relative;
+  max-height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}

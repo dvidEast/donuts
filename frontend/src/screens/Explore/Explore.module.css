@@ -1,0 +1,19 @@
+.wrapper {
+  padding-bottom: calc(80px + 1rem);
+}
+
+.partner {
+  display: flex;
+  padding-top: 1rem;
+  gap: 0.5rem;
+}
+.partnerInner {
+  display: flex;
+  flex-direction: column;
+}
+
+.attrItem {
+}
+.attrItem.active {
+  font-weight: bold;
+}

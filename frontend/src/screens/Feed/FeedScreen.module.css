@@ -1,0 +1,27 @@
+.wrapper {
+  padding-bottom: 6.1rem;
+}
+
+.container {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

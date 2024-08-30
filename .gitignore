@@ -1,0 +1,11 @@
+/frontend/.env
+/frontend/local.env
+/frontend/node_modules
+/frontend/yarn.lock
+/frontend/package-lock.json
+/server/.env
+/server/node_modules
+/server/_scripts
+/server/local-start.sh
+/server/local-start.cmd
+/server/utils/sets-elephants-51064d91dbab.json
